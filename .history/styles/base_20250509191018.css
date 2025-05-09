@@ -71,9 +71,9 @@ main{
     padding-left: 0;
     gap: 2rem;
 }
-.learning-resources ul li{
+/* .learning-resources ul li{
     list-style-type: circle;
-    list-style-position:inside ;
+    list-style-position:inside ; */
 }
 .learning-resources ul li a{
     text-decoration: none;
@@ -81,9 +81,8 @@ main{
 }
 .learning-resources ul li a:hover{
     background-color: #F7DC67;
-    padding: 0.2rem;
+    padding: 0.1rem;
     color: #032B44;
-    transition: all 0.2s ease-in-out;
 
 
 }

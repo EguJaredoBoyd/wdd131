@@ -81,9 +81,8 @@ main{
 }
 .learning-resources ul li a:hover{
     background-color: #F7DC67;
-    padding: 0.2rem;
+    padding: 0.1rem;
     color: #032B44;
-    transition: all 0.2s ease-in-out;
 
 
 }
