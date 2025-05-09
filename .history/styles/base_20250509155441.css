@@ -39,7 +39,10 @@ main{
     max-width: 100%;
 }
 .card{
-    border: 1px solid #399cda;
+    border-left: 1px solid #399cda;
+    border-right: 1px solid #399cda;
+    border-bottom: 1px solid #399cda;
+    margin-top: 1px solid #399cda;
     margin-top: 2rem;
 }
 .card h2{
@@ -72,8 +75,7 @@ main{
     gap: 2rem;
 }
 .learning-resources ul li{
-    list-style-type: circle;
-    list-style-position:inside ;
+    list-style-type: none;
 }
 .learning-resources ul li a{
     text-decoration: none;
@@ -81,9 +83,9 @@ main{
 }
 .learning-resources ul li a:hover{
     display: block;
-    background-color: #F7DC67;
-    padding: 0.3rem;
-    color: #032B44;
+    background-color: red;
+    padding: 1rem;
+    color: white;
     transition: 0.3s ease-in-out;
 
 

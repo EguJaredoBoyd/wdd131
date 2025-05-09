@@ -39,7 +39,10 @@ main{
     max-width: 100%;
 }
 .card{
-    border: 1px solid #399cda;
+    border-left: 1px solid #399cda;
+    border-right: 1px solid #399cda;
+    border-bottom: 1px solid #399cda;
+    margin-top: 1px solid #399cda;
     margin-top: 2rem;
 }
 .card h2{
