@@ -1,0 +1,10 @@
+*{
+    background-color: #032B44;
+    color: white;
+}
+header h1{
+    text-align: center;
+}
+header nav ul li a{
+    display: flex;
+}

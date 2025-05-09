@@ -1,0 +1,27 @@
+html{
+    color: white;
+    background-color: #032B44;
+}
+header{
+    background-color: #032B44;
+}
+header h1{
+    text-align: center;
+}
+Header h1 span{
+    color:yellowgreen;
+}
+nav{
+    background-color: #F7DC67;
+    padding: 0.2rem;
+}
+header nav ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+}

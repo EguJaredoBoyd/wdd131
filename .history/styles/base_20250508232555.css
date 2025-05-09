@@ -1,0 +1,14 @@
+*{
+    background-color: #032B44;
+    color: white;
+}
+header h1{
+    text-align: center;
+}
+header nav ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+header nav ul li{
+    list-style-type: disc;
+}

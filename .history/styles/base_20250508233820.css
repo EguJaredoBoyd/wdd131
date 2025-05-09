@@ -1,0 +1,24 @@
+*{
+}
+header{
+    background-color: #032B44;
+}
+header h1{
+    text-align: center;
+}
+header span{
+    color: bright yellowgreen;
+}
+nav{
+    background-color: black;
+}
+header nav ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+}

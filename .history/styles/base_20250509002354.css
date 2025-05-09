@@ -1,0 +1,57 @@
+html{
+    color: white;
+    background-color: #032B44;
+}
+header{
+    background-color: #032B44;
+}
+header h1{
+    text-align: center;
+}
+Header h1 span{
+    color:#F7DC67;
+}
+nav{
+    background-color: #F7DC67;
+    padding: 0.2rem;
+}
+header nav ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+}
+main{
+    display: flex;
+    gap: 2rem;
+}
+.card{
+    border-left: 1px solid #399cda;
+    border-right: 1px solid #399cda;
+    border-bottom: 1px solid #399cda;
+    margin-top: 1px solid #399cda;
+    margin-top: 2rem;
+}
+.card h3{
+    text-align: center;
+    background-color: #399cda;
+    padding: 0.5rem;
+    margin-top: 0;
+
+}
+.card img{
+    height: 40vh;
+    width: 20vw;
+    border-radius: 50%;
+}
+.card div{
+    display: flex;
+    padding: 1rem;
+}
+.card p{
+    line-height: 1rem;
+}
