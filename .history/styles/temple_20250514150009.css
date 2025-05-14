@@ -1,0 +1,9 @@
+html{
+    font-family: "Quicksand", sans-serif;
+}
+header{
+    background-color: rgb(48, 104, 126);
+}
+nav{
+   display: flex; 
+}

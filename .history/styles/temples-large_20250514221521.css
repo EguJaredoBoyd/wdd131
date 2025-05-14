@@ -1,0 +1,39 @@
+@media only screen and (min-width: 767px) {
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+
+         
+    }
+    nav ul li a:hover{
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+    .menu li{
+        margin: 1rem;
+    }
+
+    #menu{
+        display: contents;
+    }
+    #menu-toggle{
+        display: none;
+    }
+    #cancel-button{
+        display: none;
+    }
+    .temples{
+        display: grid;
+        grid-template-areas: 
+        "california hamilton lehi-temple"
+        "Modesto  oakland oquirrh"
+        "salt-lake st-george washington";
+        max-width: 100%;
+    }
+main figure img{
+    height: 40vh;
+    width: 20vw;
+}
+    
+}

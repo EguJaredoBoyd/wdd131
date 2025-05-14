@@ -1,0 +1,18 @@
+@media only screen and (min-width: 767px) {
+
+    header ul li{
+        display: flex;
+         
+    }
+
+    #menu{
+        display: block;
+    }
+    #menu-toggle{
+        display: none;
+    }
+    #cancel-button{
+        display: none;
+    }
+    
+}

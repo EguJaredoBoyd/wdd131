@@ -1,0 +1,26 @@
+@media only screen and (min-width: 767px) {
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+
+         
+    }
+    .menu ul li a:hover{
+        padding: 1rem;
+    }
+    .menu li{
+        margin: 1rem;
+    }
+
+    #menu{
+        display: contents;
+    }
+    #menu-toggle{
+        display: none;
+    }
+    #cancel-button{
+        display: none;
+    }
+    
+}

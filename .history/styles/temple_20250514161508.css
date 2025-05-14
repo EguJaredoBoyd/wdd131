@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+}
+
+html{
+    font-family: "Quicksand", sans-serif;
+}
+header{
+    background-color: rgb(15, 15, 32);
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    color: white;
+}
+header i{
+    font-size: larger;
+    bottom: 0;
+}
+nav{
+   display: flex; 
+}
+nav ul li{
+    list-style-type: none;
+    margin-top: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+nav ul li a:hover{
+    background-color: rgb(163, 163, 243);
+    padding: 0 1rem;
+    border-radius: 30px;
+}
+#navLinks{
+    display: none;
+}
+main{
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+    grid-template-areas: 
+    "california"
+    "hamilton"
+    "lehi-temple"
+    "Modesto"
+    "oakland"
+    "oquirrh"
+    "salt-lake"
+    "st-george"
+    "washington";
+    max-width: 100%;
+}
+main  h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+.california{
+    grid-area: "california";
+}
+.hamilton{
+    grid-area: "hamilton";
+}
+.lehi{
+    grid-area: "lehi-temple";
+}
+.modesto{
+    grid-area: "Modesto";
+}
+.oakland{
+    grid-area: "oakland";
+}
+.oquirrh{
+    grid-area: "oquirrh";
+}
+.salt-lake{
+    grid-area: "salt-lake";
+}
+.st-george{
+    grid-area: "st-george";
+}
+.washington{
+    grid-area: "washington";
+}
+main figure img{
+    height: 30vh;
+    width: 85vw;
+}
+footer{
+    background-color:rgb(15, 15, 32);
+    color: white;
+    text-align: center;
+}
