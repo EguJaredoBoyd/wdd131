@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple responsive webpage that shows a gallery picture of different temples">
+    <meta name="author" content="Egu Chidiebere Jared">
+    <title>WDD131 - Chelsea Football Club - Egu Chidiebere Jared</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
+    <link rel="stylesheet" href="./styles/place.css">
+    <link rel="stylesheet" href="./styles/place-large.css">
+    <script src="./scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Chelsea Football <span class="club"> Club</span></h1>
+        <div class="header-color2">hi</div>
+    </header>
+    <main>
+        <section>
+            <picture>
+                <source media="(max-width 768px)" srcset="./images/stanford-mobile-size.webp" sizes="100vw">
+                <source media="(min-width: 769px)" srcset="./images/stanford-bridge.webp" sizes="100vw">
+                <img src="./images/stanford-mobile-size.webp" alt="stamford bridge">
+            </picture>
+        </section>
+        <section class="info">
+            <h2>About Chelsea</h2>
+            <p><strong>Name: </strong> Stamford Bridge</p>
+            <p><strong>Location: </strong>Fulham Road, London, SW6 1HS</p>
+            <p><strong>Capacity: 40,834</strong></p>
+            <p><strong>Opened: </strong>1905</p>
+            <p><strong>Pitch size: </strong>103 x 67 meters</p>
+            <p><strong>Playing surface: </strong>Grass</p>
+        </section>
+        <section class="weather">
+            <h2>Weather <span>⛅</span></h2>
+            <p><strong>Temperature: </strong><span id="temp">45</span> ℉</p> 
+            <p><strong>Wind Speed</strong><span id="speed">10</span> mph</p>
+            <p><strong>Wind Chill</strong><span id="chill"></span></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | Chelsea FC Page | Egu Chidiebere Jared |  Last Modified: <span id="lastModified"></span></p>
+    </footer>  
+
+</body>
+</html>
