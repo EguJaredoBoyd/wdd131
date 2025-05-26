@@ -32,7 +32,8 @@ header h1{
     color: rgb(191, 241, 241);
 }
 section picture img{
-    width: 100vw;
+    
+    
     height: auto;
     display: block;
 }
