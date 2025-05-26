@@ -6,7 +6,7 @@
         position: absolute;
         background-color: rgba(255, 255, 255, 0.7);
         width: 20vw;
-        height: 50vh;
+        height: 45vh;
         top: 15rem;
         left: 2rem;
     }
@@ -28,7 +28,7 @@
         position: absolute;
         background-color: rgba(255, 255, 255, 0.7);
         width: 15vw;
-        height: 40vh;
+        height: 30vh;
         bottom: -15rem;
         right: 2rem;
         line-height: 2rem;
@@ -45,10 +45,10 @@
     }
     .weather h2{
         padding-left: 1rem;
-        padding-right: 2.5rem;
-        margin-left: -3rem;
+        padding-right: 4rem;
+        margin-left: -2rem;
         background-color: var(--primary-color);
-        margin-top: -3.5rem;
+        margin-top: -1.5rem;
         color: white;
 
     }

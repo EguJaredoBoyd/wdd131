@@ -4,20 +4,20 @@
     }
     .info{
         position: absolute;
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: aqua;
         width: 20vw;
-        height: 50vh;
+        height: 45vh;
         top: 15rem;
         left: 2rem;
     }
     .info > .about{
         font-size: small;
-        line-height: 2rem;
+        line-height: 1.7rem;
 
     }
     .info h2{
-        margin-bottom: 2rem;
-        margin-top: -1rem;
+        margin-bottom: 0;
+        margin-top: -3rem;
         background-color: var(--primary-color);
         color: white;
         margin-left: -4rem;
@@ -26,12 +26,12 @@
     }
     .weather{
         position: absolute;
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: red;
         width: 15vw;
-        height: 40vh;
+        height: 30vh;
         bottom: -15rem;
         right: 2rem;
-        line-height: 2rem;
+        line-height: 1.7rem;
     
     }
     .weather > * :not(h2){
@@ -45,12 +45,11 @@
     }
     .weather h2{
         padding-left: 1rem;
-        padding-right: 2.5rem;
-        margin-left: -3rem;
+        padding-right: 4rem;
+        margin-left: -2rem;
         background-color: var(--primary-color);
-        margin-top: -3.5rem;
+        margin-top: 0;
         color: white;
-
     }
 
     

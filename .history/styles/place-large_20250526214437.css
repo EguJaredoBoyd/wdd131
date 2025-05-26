@@ -52,6 +52,9 @@
         color: white;
 
     }
+    .picture-section{
+        max-width: 80vw;
+    }
 
     
 }

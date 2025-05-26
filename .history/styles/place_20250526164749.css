@@ -11,9 +11,6 @@
     box-sizing: border-box;
     font-family: var(--font-stack);
 }
-body{
-    max-width: 100vw;
-}
 header{
     width: 100%;
     background-color: var(--primary-color);
@@ -38,7 +35,6 @@ section picture img{
     width: 100vw;
     height: auto;
     display: block;
-    max-width: 100vw;
 }
 .info, .weather{
     display: flex;

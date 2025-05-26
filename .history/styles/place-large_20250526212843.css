@@ -45,10 +45,10 @@
     }
     .weather h2{
         padding-left: 1rem;
-        padding-right: 2.5rem;
-        margin-left: -3rem;
+        padding-right: 4rem;
+        margin-left: -2rem;
         background-color: var(--primary-color);
-        margin-top: -3.5rem;
+        margin-top: -1.5rem;
         color: white;
 
     }

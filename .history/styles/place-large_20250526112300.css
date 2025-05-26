@@ -1,0 +1,38 @@
+@media only screen and (min-width:767px) {
+    .picture-section{
+        position: relative;
+    }
+    .info{
+        position: absolute;
+        background-color: aqua;
+        width: 30vw;
+        height: 50vh;
+        top: 100px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    .info > .about{
+        font-size: small;
+        line-height: 1.7rem;
+
+    }
+    .weather{
+        position: absolute;
+        background-color: red;
+        width: 20vw;
+        height: 50vh;
+        bottom: -7rem;
+        right: 0;
+        line-height: 1.7rem;
+    
+    }
+    .weather > * :not(h2){
+        font-size: small;
+    }
+    .weather > img{
+        display: none;
+    }
+
+    
+}
