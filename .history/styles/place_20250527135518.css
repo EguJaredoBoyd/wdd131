@@ -34,9 +34,9 @@ header h1{
     align-self: center;
     color: rgb(191, 241, 241);
 }
-.picture-section img{
+.picture-section{
     width: 100vw;
-    height: 150vh;
+    height: auto;
     display: block;
     max-width: 100vw;
 }
