@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+nav ul li a:hover {
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.menu li {
+    margin: 1rem;
+}
+
+#menu {
+    display: contents;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#cancel-button {
+    display: none;
+}
