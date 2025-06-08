@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Thank You!</title>
+    <link rel="stylesheet" href="./styles/form.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Thank You for Your Review!</h1>
+    </header>
+
+    <main>
+        <p>Your review has been submitted.</p>
+        <p id="reviewCount"></p>
+    </main>
+
+    <footer>
+        <p>&copy; Brigham Young University-Idaho | All rights reserved</p>
+    </footer>
+
+    <script>
+        const count = Number(localStorage.getItem("reviewCount")) || 0;
+        localStorage.setItem("reviewCount", count + 1);
+        document.getElementById("reviewCount").textContent = `You have submitted ${count + 1} review(s).`;
+    </script>
+</body>
+
+</html>
