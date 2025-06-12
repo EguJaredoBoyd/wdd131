@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore | Wonders of Nature</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Explore Natural Wonders</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="explore.html">Explore</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="factSection">
+      <h2>Nature Fact of the Day</h2>
+      <button onclick="showRandomFact()">Reveal</button>
+      <p id="natureFact"></p>
+    </section>
+
+    <section>
+      <h2>Share Your Favorite Nature Spot</h2>
+      <form id="natureForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="spot">Favorite Spot:</label>
+        <input type="text" id="spot" required />
+
+        <label for="why">Why you love it:</label>
+        <textarea id="why" required></textarea>
+
+        <label for="region">Region:</label>
+        <select id="region">
+          <option value="forest">Forest</option>
+          <option value="desert">Desert</option>
+          <option value="ocean">Ocean</option>
+          <option value="mountain">Mountain</option>
+        </select>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wonders of Nature | <a href="references.html">References</a></p>
+  </footer>
+
+  <script src="data/facts.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
